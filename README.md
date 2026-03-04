@@ -15,10 +15,12 @@ Features:
 
 How to Run the Project in Google Colab
   1. Open the provided .ipynb file in Google Colab
-  2. Upload the image classifier model in the notebook
-  3. Run all cells
-  4. The Smart Gate Dashboard will appear
-  5. Enter IN/OUT, Name, Reason, Capture the image of vehicle, and Submit.
+  2. Download the classifier 
+     (https://github.com/josephsrujan66/SMART_GATE_KEEPING/releases/download/Vehicle_Classifier_Model/vehicle_classifier_model.h5)
+  3. Upload the image classifier model in the notebook
+  4. Run all cells
+  5. The Smart Gate Dashboard will appear
+  6. Enter IN/OUT, Name, Reason, Capture the image of vehicle, and Submit.
 
 *No installation required — all dependencies are handled inside the notebook.
 

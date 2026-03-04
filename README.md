@@ -25,7 +25,6 @@ How to Run the Project in Google Colab
 
 Project Structure
 Smart-Gate-System/
-│
-├── Smart_Gate_System.ipynb
-├── license_plate_model.h5
-└── vehicle_log.xlsx (generated automatically)
+      Smart_Gate_System.ipynb
+      license_plate_model.h5
+      vehicle_log.xlsx (generated automatically)

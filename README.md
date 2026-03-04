@@ -1,33 +1,31 @@
-# SMART_GATE_KEEPING
-Developed an automated system for managing vehicle entry and exit at gates using image processing and deep learning techniques. The system captures images, classifies vehicle types, recognizes license plates, and logs entry-exit data efficiently.
+Smart Gate System (Notebook Version)
 
-Key Responsibilities:
+An AI-based Smart Gate Entry & Exit Management System that detects vehicle license plates from images and automatically logs vehicle movement into an Excel file.
+This project runs entirely inside a Jupyter Notebook / Google Colab environment.
 
-System Development and Integration:
+Features:
+  1. License Plate Detection using Deep Learning (.h5 model)
+  2. IN (Entry) Logging
+  3. OUT (Exit) Logging
+  4. Capture Image from System Camera
+  5. Upload Image Option
+  6. Automatic Excel Log Generation
+  7. Auto-delete Image After Processing
+  8. Interactive Dashboard UI
 
-Built a comprehensive vehicle entry-exit system utilizing deep learning and image processing.
-Deployed the system on Google Colab, providing an intuitive interface for capturing or uploading images and logging vehicle data.
-Data Preparation and Model Training:
+How to Run the Project in Google Colab
+  1. Open the provided .ipynb file in Google Colab
+  2. Upload the image classifier model in the notebook
+  3. Run all cells
+  4. The Smart Gate Dashboard will appear
+  5. Enter IN/OUT, Name, Reason, Capture the image of vehicle, and Submit.
 
-Collected and preprocessed image datasets for various vehicle types.
-Trained a Convolutional Neural Network (CNN) using Keras and TensorFlow for accurate vehicle classification.
-Implemented data augmentation techniques to enhance model robustness.
-License Plate Detection and Optical Character Recognition (OCR):
+*No installation required — all dependencies are handled inside the notebook.
 
-Utilized OpenCV for detecting and extracting license plates from images.
-Employed EasyOCR for accurate reading of registration numbers, handling rotated and skewed plates effectively.
-Data Logging and Management:
 
-Automated the logging of entry and exit times, vehicle types, and registration numbers into a CSV file.
-Ensured data integrity and efficient record-keeping for vehicle management at entry gates.
-Technologies Used:
-
-Deep Learning: Keras, TensorFlow
-
-Image Processing: OpenCV
-
-OCR: EasyOCR
-
-Data Management: Python, CSV
-
-Deployment: Google Colab
+Project Structure
+Smart-Gate-System/
+│
+├── Smart_Gate_System.ipynb
+├── license_plate_model.h5
+└── vehicle_log.xlsx (generated automatically)
